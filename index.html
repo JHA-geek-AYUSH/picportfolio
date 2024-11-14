@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1 class="logo">Your Name</h1>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="./assets/headerimg.png" alt="Hero Image" class="hero-img">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Photographer | Artist | Storyteller</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="photo-grid">
+            <!-- Images with onclick for preview -->
+            <img src="./assets/1 (1).jpg" alt="Sample 1" onclick="openPreview(this)">
+            <img src="./assets/1 (2).jpg" alt="Sample 2" onclick="openPreview(this)">
+            <img src="./assets/1 (3).jpg" alt="Sample 3" onclick="openPreview(this)">
+            <img src="./assets/1 (4).jpg" alt="Sample 4" onclick="openPreview(this)">
+            <img src="./assets/1 (5).jpg" alt="Sample 5" onclick="openPreview(this)">
+            
+            <img src="./assets/1 (18).jpg" alt="Sample 18" onclick="openPreview(this)">
+            <img src="./assets/1 (19).jpg" alt="Sample 19" onclick="openPreview(this)">
+
+            <img src="./assets/1 (23).jpg" alt="Sample 19" onclick="openPreview(this)">
+            <img src="./assets/1 (24).jpg" alt="Sample 19" onclick="openPreview(this)">
+            <img src="./assets/1 (26).jpg" alt="Sample 19" onclick="openPreview(this)">
+
+            
+            <img src="./assets/1 (12).jpg" alt="Sample 12" onclick="openPreview(this)">
+            <img src="./assets/1 (13).jpg" alt="Sample 13" onclick="openPreview(this)">
+            <img src="./assets/1 (11).jpg" alt="Sample 11" onclick="openPreview(this)">
+
+            <img src="./assets/1 (7).jpg" alt="Sample 7" onclick="openPreview(this)">
+            <img src="./assets/1 (20).jpg" alt="Sample 20" onclick="openPreview(this)">
+            <img src="./assets/1 (21).jpg" alt="Sample 21" onclick="openPreview(this)">
+            <img src="./assets/1 (22).jpg" alt="Sample 22" onclick="openPreview(this)">
+            <img src="./assets/1 (17).jpg" alt="Sample 17" onclick="openPreview(this)">
+
+            <img src="./assets/1 (10).jpg" alt="Sample 10" onclick="openPreview(this)">
+            <img src="./assets/1 (14).jpg" alt="Sample 14" onclick="openPreview(this)">
+
+            <img src="./assets/1 (8).jpg" alt="Sample 8" onclick="openPreview(this)">
+
+            <img src="./assets/1 (30).jpg" alt="Sample 30" onclick="openPreview(this)">
+            <img src="./assets/1 (16).jpg" alt="Sample 16" onclick="openPreview(this)">
+
+
+
+            <img src="./assets/1 (15).jpg" alt="Sample 6" onclick="openPreview(this)">
+            <img src="./assets/1 (6).jpg" alt="Sample 15" onclick="openPreview(this)">
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate photographer who loves turning fleeting moments into everlasting memories.</p>
+    </section>
+
+    <!-- Lightbox Preview -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closePreview()">&times;</span>
+        <img id="lightbox-img" src="" alt="Preview">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+            
